@@ -1,0 +1,302 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Serif JP', serif;
+    background-image: url(img/white_00037.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+li {
+    list-style: none;
+}
+
+.header-container {
+    background-image: url(img/white_00037.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 30px;
+    position: fixed; z-index: 10;
+    top: 0;
+    height: 30px;
+    opacity: 0.8;
+    
+}
+
+.title {
+    font-size: 20px;
+    float: left;
+    padding-left: 3%; padding-right: 2%;
+    line-height: 30px;
+    
+    
+}
+.title-link {
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.808);
+}
+
+
+.title-link .left {
+    line-height: 30px;
+    float: left;
+    padding: 0 2%; 
+    
+}
+.title-link a:hover {
+    color: rgba(0, 0, 0, 0.513);
+    background-color: rgba(0, 0, 0, 0.113);
+    border-radius: 10%;
+}
+.title-link .right {
+    line-height: 30px;
+    float: right;
+    padding: 0 2%;
+}
+/* トップ */
+.top {
+    background-image: url(img/people-floating-on-the-river-with-lanterns-floating-in-the-air_843415-3582.jpg );
+    background-size: cover;
+    padding: 200px 0 200px 0;
+    color: white;
+    
+    
+    
+    
+
+}
+.top-container {
+    
+    margin: 0 auto;
+    padding: 30px
+}
+.top-title {
+    text-align: center;
+
+}
+.top-title h1 {
+    font-size: 60px;
+    opacity: 0.9;
+    letter-spacing: 15px;
+    
+}
+.top-title p {
+    margin-top: 50px;
+    opacity: 0.9;
+    font-size: 23px;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+.left-img {    
+    position: relative;
+    display: flex;
+    border-bottom: 2px solid rgba(22, 17, 53, 0.649);
+    padding-bottom: 50px;    
+    
+}
+
+.img-content {
+    float: right;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: left;
+    opacity: 0.8;
+    
+}
+.img-content h2 {
+    color: white;
+    padding: 185px 57px 6px 41px;
+    letter-spacing: 2px;
+    
+}
+.img-content p {
+    color: white;
+    font-size: 15px;
+    padding: 10px 0px 0 40px;
+    
+}
+.img-content p:last-child {
+    
+}
+
+.clear {
+    clear: right;
+}
+.main {
+    margin-bottom: 200px;
+    
+}
+.line-title {
+    
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    opacity: 0.8;
+    letter-spacing: 2px;
+    border-bottom: 2px solid rgba(22, 17, 53, 0.649);
+    margin-bottom: 50px;
+    
+}
+.main-title h1 {
+    font-size: 40px;
+    opacity: 0.9;
+    letter-spacing: 15px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    border-top: 2px solid rgba(27, 22, 54, 0.649);   
+}
+.main-title p {
+    opacity: 0.9;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-bottom: 200px;
+    border-bottom: 2px solid rgba(22, 17, 53, 0.649);
+   
+}
+.article h2 {
+    letter-spacing: 2px;
+    margin: 8px 0 0 px;
+}
+.article h2:nth-child(3) {
+    margin-top:  20px;
+}
+.article p {
+    letter-spacing: 1px;
+    font-size: 13px;
+    padding-top: 15px;
+    line-height: 17px;
+    
+}
+.article {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.img-area {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    margin-right:50px; 
+
+    /* 
+    あとでけす
+     */
+}
+.img-area h1 {
+    font-size: 15px;
+    position: absolute;
+    top: 0px;
+    line-height: 150px;
+    opacity: 0.8;
+    letter-spacing: 2px;
+    
+}
+.img-area p {
+    font-size: 12px;
+    position: absolute;
+    padding-top: 10px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    width: 90%;
+    text-align: left;
+    padding-left: 22px;
+}
+.img-area1,.img-area2,.img-area3,.img-area4 {
+    position: relative;
+    width: 100%;
+    padding-right: 50px;
+}
+.img-area1 h1 {
+    width: 185%;
+}
+.img-area2 h1 {
+    width: 185%;
+}
+.img-area3 h1 {
+    width: 180%;
+}
+.img-area4 h1 {
+    width: 100%;
+    padding-left: 250px;
+}
+
+.p1,.p2{
+    display: none;
+}
+.h2-1,.h2-2 {
+    display: none;
+    
+    
+}
+.p-1,.p-2 {
+    display: none;
+}
+
+.a-1,.a-2,.a-3,.a-4,.b-1,.b-2,.b-3,.b-4 {
+    display: none;
+}
+.text {
+    display: none;
+}
+
+/* 
+フッター
+*/
+
+footer {
+    background-image: url(img/black_00103.jpg);
+    background-size: cover;
+    height: 150px;
+    opacity: 0.8;
+    color: white;
+    bottom: 0; 
+    
+    display: block;
+}
+.footer-container {
+    background-color: rgba(74, 74, 74, 0.23);
+    height: 150px;
+    margin-top: 100px;
+}
+
+
+.footer-logo {
+    padding: 20px;
+}
+.footer-left p {
+    margin-left: 5px;
+}
+.footer-left li {
+    font-size: 13px;
+    margin-left: 100px; 
+    padding-top: 10px;
+}
+.footer-left {
+    float: left;
+    
+}
+footer a:hover {
+    color: rgba(255, 255, 255, 0.548);
+}
+.footer-right {
+    float: right;
+    padding: 20px 20px 0 20px;
+    margin-right: 20px;
+}
+.footer-right li {
+    font-size: 13px;
+    margin-left: 50px; 
+    margin-top: 10px;
+}
+.right-bottom p {
+    text-align: right;
+    padding-top: 120px;
+    margin-right: 20px;
+    font-size: 13px;
+}
